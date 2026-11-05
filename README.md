@@ -1,17 +1,27 @@
-# inclass_13_mobile
+# In-Class Activity 13 - Flutter Login App
 
-A new Flutter project.
+## About
+This is a simple Flutter login app for In-Class Activity 13.
 
-## Getting Started
+The app uses local authentication because I had issues connecting Firebase.
 
-This project is a starting point for a Flutter application.
+## Features
+- Create an account
+- Sign in with email and password
+- View user profile
+- Change password
+- Sign out
+- Basic input validation
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
+1. Open the project in VS Code or Android Studio.
+2. Run `flutter pub get`.
+3. Run `flutter run`.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Testing
+I tested the app using an Android emulator.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I tested registration, login, password change, and logout.
+
+## Notes
+Firebase authentication is not connected due to setup issues. User accounts are stored temporarily in the app and will reset when the app restarts.
